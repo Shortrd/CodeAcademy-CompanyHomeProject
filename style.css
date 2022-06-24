@@ -11,13 +11,22 @@ html {
     font-size: 16px;
 }
 
+.main-content {
+    position: relative;
+    top: 6.25rem;
+}
+
 
 /* ---- Header Styles ---- */
 
 header .nav-bar {
-    /*position: fixed;*/
+    position: fixed;
+    top: 
+    width: 100%;
     display: flex;  
     align-items: center;
+    background-color: white;
+    z-index: 1;
 }
 
 header .nav-bar .logo img {
@@ -39,9 +48,20 @@ header nav li {
 
 /* ---- Team Section ---- */
 
-.team-container {
-    display: flex;
+.team-section {
+    background-color: rgb(219, 212, 212)
 }
 
-.team-section .member {
+.team-section h2, .team-section h3 {
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-section .member img {
+    width: 40rem;
+    height: auto;
 }
