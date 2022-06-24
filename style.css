@@ -1,0 +1,47 @@
+/* ---- Universal Styles ---- */
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Resources/Fonts/Metropolis-Regular.woff2') format('woff2'),
+         url('Resources/Fonts/Metropolis-Regular.woff') format('woff'),
+         url('Resources/Fonts/Metropolis-Regular.ttf') format('truetype')
+  }
+
+html {
+    font-size: 16px;
+}
+
+
+/* ---- Header Styles ---- */
+
+header .nav-bar {
+    /*position: fixed;*/
+    display: flex;  
+    align-items: center;
+}
+
+header .nav-bar .logo img {
+    max-width: 12rem;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav li {
+    margin: 0.5rem;
+    font-family: 'Metropolis';
+    font-size: 1.2rem;
+}
+
+
+/* ---- Team Section ---- */
+
+.team-container {
+    display: flex;
+}
+
+.team-section .member {
+}
