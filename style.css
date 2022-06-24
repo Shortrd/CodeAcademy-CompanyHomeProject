@@ -12,8 +12,10 @@ html {
 }
 
 .main-content {
-    position: relative;
+    position: absolute;
     top: 6.25rem;
+    left: 0rem;
+    right: 0rem;
 }
 
 
@@ -21,11 +23,12 @@ html {
 
 header .nav-bar {
     position: fixed;
-    top: 
+    top: 0rem;
+    left: 0rem;
     width: 100%;
     display: flex;  
     align-items: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.85);
     z-index: 1;
 }
 
@@ -46,10 +49,27 @@ header nav li {
 }
 
 
+/* ---- Product Section ---- */
+
+.product-sample-section {
+    background: rgb(219, 212, 212)
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 6rem;
+}
+
+
 /* ---- Team Section ---- */
 
 .team-section {
     background-color: rgb(219, 212, 212)
+}
+
+.team-section h2 {
+    padding-top: 3rem;
 }
 
 .team-section h2, .team-section h3 {
@@ -58,10 +78,12 @@ header nav li {
 
 .team-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 10rem;
 }
 
 .team-section .member img {
-    width: 40rem;
+    width: 20rem;
     height: auto;
+    padding-bottom: 2rem;
 }
