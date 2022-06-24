@@ -58,7 +58,12 @@ header nav li {
 .product-container {
     display: flex;
     justify-content: center;
-    column-gap: 6rem;
+    column-gap: 2rem;
+}
+
+.product-sample-section .product img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -83,7 +88,7 @@ header nav li {
 }
 
 .team-section .member img {
-    width: 20rem;
+    max-width: 20rem;
     height: auto;
     padding-bottom: 2rem;
 }
