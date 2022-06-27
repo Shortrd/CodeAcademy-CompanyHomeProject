@@ -59,6 +59,16 @@ header a:link, header a:visited {
 
 main h2 {
     text-align: center;
+    font-family: 'Metropolis';
+    font-size: 1.7rem;
+}
+
+.product-sample-section {
+    margin: 3rem;
+}
+
+.new-arrivals-section {
+    margin: 2rem;
 }
 
 .product-container {
