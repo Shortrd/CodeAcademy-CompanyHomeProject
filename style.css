@@ -55,10 +55,10 @@ header a:link, header a:visited {
 }
 
 
-/* ---- Product Section ---- */
+/* ---- Product Section AND New Arrivals Section ---- */
 
-.product-sample-section {
-    background: rgb(219, 212, 212)
+main h2 {
+    text-align: center;
 }
 
 .product-container {
@@ -67,7 +67,7 @@ header a:link, header a:visited {
     column-gap: 2rem;
 }
 
-.product-sample-section .product img {
+.product img {
     max-width: 100%;
     height: auto;
 }
