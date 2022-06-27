@@ -91,10 +91,16 @@ main h2 {
 
 .team-section h2 {
     padding-top: 3rem;
+    font-size: 1.7rem;
+}
+
+.team-section h3 {
+    font-size: 1.2rem;
 }
 
 .team-section h2, .team-section h3 {
     text-align: center;
+    font-family: 'Metropolis';
 }
 
 .team-container {
