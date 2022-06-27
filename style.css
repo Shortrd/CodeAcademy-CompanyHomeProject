@@ -111,6 +111,7 @@ main p {
 .team-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     column-gap: 10rem;
 }
 
@@ -128,10 +129,15 @@ main p {
     padding-top: 0;
 }
 
-/*
-footer {
-    position: absolute;
-    bottom: 0;
-    margin-top: 2%;
+.about-us-section p {
+    padding: 0 2rem 0 2rem;
+    text-align: justify;
+    text-justify: inter-word;
 }
-*/
+
+
+.footer, .credits {
+    background-color: rgb(133, 133, 133);
+    margin: 0;
+    padding: 0.5rem;
+}
