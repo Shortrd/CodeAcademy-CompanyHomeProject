@@ -25,29 +25,29 @@ html {
 
 /* ---- Header Styles ---- */
 
-header .nav-bar {
+header .desktop-menubar {
     position: fixed;
     top: 0rem;
     left: 0rem;
     width: 100%;
-    display: flex;  
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.85);
     z-index: 1;
 }
 
-header .nav-bar .logo img {
-    max-width: 12rem;
+header .desktop-menubar .logo img {
+    width: 12rem;
     height: auto;
 }
 
-header nav ul {
+header .desktop ul {
     display: flex;
     list-style: none;
 }
 
-header nav li {
+header .desktop li {
     margin: 0.75rem;
     font-size: 1.2rem;
 }
@@ -55,6 +55,13 @@ header nav li {
 header a:link, header a:visited {
     text-decoration: none;
     color: black;
+}
+
+/* Header Sized for 4K Screens */
+@media only screen and (max-width: 768) {
+    header .desktop-menubar {
+      display: none;
+    }
 }
 
 
