@@ -22,6 +22,12 @@ html {
     right: 0rem;
 }
 
+@media only screen and (max-width: 920px) {
+    .main-content {
+      top: 8rem;
+    }
+  }
+
 
 /* ---- Header Styles ---- */
 
@@ -30,6 +36,7 @@ header .desktop-menubar {
     top: 0rem;
     left: 0rem;
     width: 100%;
+    padding-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +45,7 @@ header .desktop-menubar {
 }
 
 header .desktop-menubar .logo img {
-    width: 12rem;
+    max-width: 12rem;
     height: auto;
 }
 
@@ -57,10 +64,40 @@ header a:link, header a:visited {
     color: black;
 }
 
-/* Header Sized for 4K Screens */
-@media only screen and (max-width: 768) {
+header .tablet-menubar {
+    display: none;
+}
+
+/* Header Sized for Tablet Screens */
+@media only screen and (max-width: 920px) {
     header .desktop-menubar {
       display: none;
+    }
+
+    header .tablet-menubar {
+        display: block;
+        padding-top: 1rem;
+    }
+
+    header .tablet-menubar .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .tablet-menubar .logo img {
+        max-width: 12rem;
+        height: auto;
+    }
+
+    header .tablet ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    header .tablet li {
+        font-size: 1.2rem;
     }
 }
 
